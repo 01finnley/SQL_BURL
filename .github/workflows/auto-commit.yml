@@ -1,7 +1,8 @@
 name: Auto-Commit Codespace
 on:
   schedule:
-    - cron: '0 * * * *'  # Läuft jede Stunde
+    - cron: '*/1 * * * *'
+
   push:
     branches:
       - main
